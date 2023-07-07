@@ -8,4 +8,9 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 Pienta KJ, Coffey DS. Correlation of nuclear morphometry with progression of breast cancer. Cancer. 1991;68:2012–6. [PubMed] [Google Scholar]
 Cui Y, Koop EA, van Diest PJ, Kandel RA, Rohan TE. Nuclear morphometric features in benign breast tissue and risk of subsequent breast cancer. Breast Cancer Res Treat. 2007;104:103–7. [PMC free article] [PubMed] [Google Scholar]
 
+### Exploratory Analysis
+
+### k-means
+
+### Predictive modeling
 
