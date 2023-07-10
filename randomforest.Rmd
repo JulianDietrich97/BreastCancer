@@ -1,0 +1,66 @@
+---
+title: "BreastCancer Predictor - Random Forest"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+setwd("C:/Users/Julian/Desktop/DATA/Proyectos DS/BreastCancer")
+```
+
+```{r}
+file_path <- "C:/Users/Julian/Desktop/DATA/Proyectos DS/BreastCancer/data.csv"
+data <- read.csv(file_path)
+print(data)
+```
+```{r}
+#Eliminate not usefull variables
+df <- subset(data, select = -c(id, X))
+```
+
+```{r}
+#Categorical target value to numerical
+
+df$diagnosis <- ifelse(df$diagnosis == "M", 1, 0)
+#Malignous = 1
+#Benignous = 0
+```
+
+```{r}
+#Partition in train and test
+
+set.seed(3)
+selection <- sample(x=1:nrow(df),nrow(df)*.7, replace=F )
+training <- df[selection,]
+testing <- df[-selection,]
+```
+
+```{r}
+library(randomForest)
+
+arbolRF <- randomForest(diagnosis~., #todas las variables menos churn
+                     data=training,
+                     ntree=100, matry=10, 
+                     #maxnodes=20,
+                     nodesize = c(30,30)
+                     )
+```
+
+```{r}
+
+objetos2 <- predict(object=arbolRF,nodes=TRUE, 
+                  newdata = testing, predict.all=TRUE)
+individuales2 <- as.data.frame(objetos2$individual)
+    #Nos da el score de cada arbol. Cuanto mas cerca de uno, mas chance que se fuge. 
+agregados2 <- as.data.frame(objetos2$aggregate)
+   #Nos da la media de todas las votaciones.
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
