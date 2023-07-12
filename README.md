@@ -3,8 +3,10 @@ Breast carcinoma is a prevalent cancer affecting women globally. The process of 
 
 Objective evaluation of nuclear changes occurring during these transformative steps is crucial. As a result, nuclear morphometry can serve as a valuable diagnostic tool.
 
-Figure 1: Fine needle aspirate procedure.
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
+
+
+Figure 1: Fine needle aspirate procedure.
 ![Fine needle aspiration](https://github.com/JulianDietrich97/BreastCancer/assets/117474938/bc745ea9-6d5c-41bc-b2e7-2edb2436fa6a)
 
 
