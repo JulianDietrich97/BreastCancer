@@ -3,7 +3,9 @@ Breast carcinoma is a prevalent cancer affecting women globally. The process of 
 
 Objective evaluation of nuclear changes occurring during these transformative steps is crucial. As a result, nuclear morphometry can serve as a valuable diagnostic tool.
 
-Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
+In recent years, data science techniques have emerged as powerful tools to extract valuable insights from large-scale datasets, aiding in early detection, diagnosis, and treatment decisions. In this project, we embark on a comprehensive analysis of a breast cancer dataset, employing various data science techniques to gain a deeper understanding of the factors influencing this disease.
+
+In this dataset, features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass and characteristics of the cell nuclei present in the image are described.
 
 
 Figure 1: Fine needle aspirate procedure.
