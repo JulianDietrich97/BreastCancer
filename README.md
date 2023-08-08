@@ -18,17 +18,23 @@ Figure 2: Fine needle aspiration from left breast mass which was showing tumor c
 
 
 
+## Project:
+### Question:
+How effectively can data science methodologies be employed to classify breast cancer cases based on morphometric features of cell nuclei, and how does the performance of different classification algorithms compare in accurately distinguishing between benign and malignant cases?
 
-Pienta KJ, Coffey DS. Correlation of nuclear morphometry with progression of breast cancer. Cancer. 1991;68:2012–6. [PubMed] [Google Scholar]
-Cui Y, Koop EA, van Diest PJ, Kandel RA, Rohan TE. Nuclear morphometric features in benign breast tissue and risk of subsequent breast cancer. Breast Cancer Res Treat. 2007;104:103–7. [PMC free article] [PubMed] [Google Scholar]
-
-Mahrous, Mervat & Morsy, Walid & Al-Hujaily, Ahmed & Al-Sulimani, Sameerah. (2012). Breast Metastasis from Renal Cell Carcinoma: Rare Initial Presentation of Disease Recurrence after 5 Years. Journal of breast cancer. 15. 244-7. 10.4048/jbc.2012.15.2.244. 
-## Project Steps:
-### Exploratory Analysis
+## Steps:
+### 1- Exploratory Analysis & Feature Selection
 My initial step involves exploratory analysis, where I delve into the dataset to uncover hidden patterns, relationships, and trends among various variables. By visualizing and summarizing the data, I intend to identify crucial features and gain preliminary insights into the underlying structure of the dataset. This exploration will serve as the foundation for formulating relevant research questions and setting the course for subsequent analyses.
 
-### K-Means
+### 2- K-Means
 Moving forward, I will apply clustering analysis techniques to group similar instances within the breast cancer dataset based on their intrinsic characteristics. By employing clustering algorithms, I hope to identify distinct subgroups of patients with similar clinical profiles. This analysis has the potential to reveal valuable insights and shed light on specific patient populations that may require tailored treatment strategies or further investigation.
 
 ### Predictive modeling
 Lastly, I will employ predictive modeling techniques to develop accurate models capable of predicting the likelihood of malignancy based on various nuclear morphometric attributes of the cells. Utilizing machine learning algorithms and leveraging insights gained from earlier stages, my goal is to construct robust predictive models. These models can potentially aid in early detection, risk assessment, and personalized treatment recommendations.
+
+
+## Bibliography
+Pienta KJ, Coffey DS. Correlation of nuclear morphometry with progression of breast cancer. Cancer. 1991;68:2012–6. [PubMed] [Google Scholar]
+Cui Y, Koop EA, van Diest PJ, Kandel RA, Rohan TE. Nuclear morphometric features in benign breast tissue and risk of subsequent breast cancer. Breast Cancer Res Treat. 2007;104:103–7. [PMC free article] [PubMed] [Google Scholar]
+
+Mahrous, Mervat & Morsy, Walid & Al-Hujaily, Ahmed & Al-Sulimani, Sameerah. (2012). Breast Metastasis from Renal Cell Carcinoma: Rare Initial Presentation of Disease Recurrence after 5 Years. Journal of breast cancer. 15. 244-7. 10.4048/jbc.2012.15.2.244. 
