@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Diplomatura en Ciencia de datos/Proyecto FINAL"
 		}
 	],
 	"settings": {}
