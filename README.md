@@ -1,4 +1,4 @@
-# BreastCancer (In progress)
+# BreastCancer 
 ## Introduction
 Breast carcinoma is a prevalent cancer affecting women globally. The process of normal cells transitioning into cancer cells involves multiple stages. The morphological characteristics of the nucleus serve as a distinct indicator for cancer diagnosis. Throughout the progression of the disease, there is a gradual alteration in nuclear parameters from benign to malignant. Breast cancer has been associated with variations in nuclear size, shape, chromatin pattern, as well as the size and number of nucleoli [1]. These morphometric features of the nucleus have demonstrated the ability to predict the prognosis of breast cancer patients [2].
 
